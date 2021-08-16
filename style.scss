@@ -1,6 +1,11 @@
 $base-color: #3498db;
 $base-color-hover: darken($base-color, 10%);
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .banner-img {
   object-fit: cover;
 }
