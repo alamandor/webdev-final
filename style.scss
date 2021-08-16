@@ -5,6 +5,20 @@ body {
   margin: 0;
   padding: 0;
 }
+@keyframes wipe-enter {
+  0% {
+    transform: scale(0, 0.025);
+  }
+  50% {
+    transform: scale(1, 0.025);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .project-animation {
+    animation: wipe-enter 1s 1;
+  }
+}
 
 .banner-img {
   object-fit: cover;
