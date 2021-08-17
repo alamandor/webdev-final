@@ -16,9 +16,6 @@ body {
     animation: wipe-enter 1s 1;
   }
 }
-.banner-img {
-  object-fit: cover;
-}
 
 #portrait {
   box-shadow: black;
