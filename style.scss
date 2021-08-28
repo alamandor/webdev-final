@@ -5,6 +5,10 @@ body {
   margin: 0;
   padding: 0;
 }
+// this is a white icon with 50% opacity
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("images/icon-menu2.svg");
+}
 @keyframes wipe-enter {
   0% {
     transform: scale(0, 0.025);

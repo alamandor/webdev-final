@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("images/icon-menu2.svg");
+}
+
 @keyframes wipe-enter {
   0% {
     transform: scale(0, 0.025);
@@ -16,7 +20,6 @@ body {
     animation: wipe-enter 1s 1;
   }
 }
-
 #portrait {
   box-shadow: black;
   max-width: 344px;
